@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 120px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav > ul > li {
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+.nav-logo {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.nav-logo span {
+  color: #fd6e0a;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0px 55px;
+}
+
+.banner-title {
+
+  color:  #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-left: 45px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.banner-disc {
+  font-size: 18;
+  color: #757575;
+  margin-bottom: 75px;
+  margin-left: 45px;
+}
+
+.btn {
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 18px 35px;
+  margin-right: 25px;
+  margin-left: 45px;
+}
+
+.btn-2 {
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+
+  font-size: 20px;
+  color: #fd6e0a;
+  padding: 18px 35px;
+}
