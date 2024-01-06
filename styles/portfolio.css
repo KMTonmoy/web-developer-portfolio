@@ -10,7 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 120px;
+  padding: 50px 120px;
 }
 
 nav > ul {
@@ -238,7 +238,74 @@ main {
 .hr-line {
   border-bottom: 1px solid #d1d1d1;
 }
-.fa-download{
+.fa-download {
   margin-right: 5px;
 }
 
+.fa-brands {
+  font-size: 28px;
+  color: #fd6e0a;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.foote-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.foote-desc {
+  margin-top: 20px;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.footer {
+  margin-top: 150px;
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+  text-align: left !important;
+  gap: 120px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+input {
+  margin-bottom: 24px;
+  display: block;
+}
+
+.btn-sub {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 120px;
+  height: 54px;
+  border: none;
+}
+
+.mininput {
+  width: 361px;
+  height: 50px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 10px 30px;
+}
+.biginput {
+  margin-bottom: 24px;
+  width: 361px;
+  height: 150px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 18px 30px;
+}
